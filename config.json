@@ -1,0 +1,160 @@
+{
+<<<<<<< HEAD
+  "Host": "127.0.0.1"
+=======
+  "Host": "37.100.251.163",
+>>>>>>> 2b1b69f (Linux config fixes and DB setup)
+  "BinPath": "bin",
+  "Language": "en",
+  "DisableSoftCrash": false,
+  "HideLoginNotice": true,
+  "LoginNotices": [
+    "<BODY><CENTER><SIZE_3><C_4>Welcome to Server for Monster Hunter Frontier Z!<BR><BODY>"
+  ],
+  "PatchServerManifest": "",
+  "PatchServerFile": "",
+  "ScreenshotAPIURL": "",
+  "DeleteOnSaveCorruption": false,
+  "DevMode": true,
+  "DevModeOptions": {
+    "AutoCreateAccount": true,
+    "CleanDB": false,
+    "MaxLauncherHR": false,
+    "LogInboundMessages": false,
+    "LogOutboundMessages": false,
+    "MaxHexdumpLength": 256,
+    "DivaEvent": 0,
+    "FestaEvent": -1,
+    "TournamentEvent": 0,
+    "MezFesEvent": true,
+    "MezFesAlt": false,
+    "DisableTokenCheck": true,
+    "QuestDebugTools": false,
+    "SaveDumps": {
+      "Enabled": true,
+      "OutputDir": "savedata"
+    }
+  },
+  "GameplayOptions": {
+    "FeaturedWeapons": 14,
+    "MaximumNP": 100000,
+    "MaximumRP": 50000,
+    "DisableLoginBoost": false,
+    "DisableBoostTime": true,
+    "BoostTimeDuration": 30,
+    "GuildMealDuration": 240,
+    "BonusQuestAllowance": 5,
+    "DailyQuestAllowance": 5
+  },
+  "Discord": {
+    "Enabled": false,
+    "BotToken": "",
+    "RealtimeChannelID": ""
+  },
+  "Commands": [
+    {
+      "Name": "Rights",
+      "Enabled": false,
+      "Prefix": "!rights"
+    }, {
+      "Name": "Raviente",
+      "Enabled": true,
+      "Prefix": "!ravi"
+    }, {
+      "Name": "Teleport",
+      "Enabled": false,
+      "Prefix": "!tele"
+    }, {
+      "Name": "Reload",
+      "Enabled": true,
+      "Prefix": "!reload"
+    }, {
+      "Name": "KeyQuest",
+      "Enabled": false,
+      "Prefix": "!kqf"
+    }, {
+      "Name": "Course",
+      "Enabled": true,
+      "Prefix": "!course"
+    }
+  ],
+  "Courses": [
+    {"Name": "HunterLife", "Enabled": true},
+    {"Name": "Extra", "Enabled": true},
+    {"Name": "Premium", "Enabled": true},
+    {"Name": "Assist", "Enabled": true},
+    {"Name": "N", "Enabled": false},
+    {"Name": "Hiden", "Enabled": true},
+    {"Name": "HunterSupport", "Enabled": true},
+    {"Name": "NBoost", "Enabled": false},
+    {"Name": "NetCafe", "Enabled": true},
+    {"Name": "HLRenewing", "Enabled": true},
+    {"Name": "EXRenewing", "Enabled": true}
+  ],
+  "Database": {
+    "Host": "localhost",
+    "Port": 5432,
+    "User": "postgres",
+    "Password": "[PASSWORD-DATABASE]",
+    "Database": "erupe"
+  },
+  "Sign": {
+    "Enabled": true,
+    "Port": 53312
+  },
+  "SignV2": {
+    "Enabled": false,
+    "Port": 53311,
+    "PatchServer": "[YOURADDRESS/IP]:8094"
+  },
+  "API": {
+    "Enabled": true,
+    "Port": 9010,
+    "PatchServer": "[YOURADDRESS/IP]:8094",
+    "Banners": [],
+    "Messages": [],
+    "Links": []
+  },
+  "Channel": {
+    "Enabled": true
+  },
+  "Entrance": {
+    "Enabled": true,
+    "Port": 53310,
+    "Entries": [
+      {
+        "Name": "Newbie", "Description": "HR1-HR4 Players", "IP": "", "Type": 3, "Recommended": 2, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54001, "MaxPlayers": 100 },
+          { "Port": 54002, "MaxPlayers": 100 }
+        ]
+      }, {
+        "Name": "Normal", "Description": "HR2-GR999 Players", "IP": "", "Type": 1, "Recommended": 0, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54003, "MaxPlayers": 100 },
+          { "Port": 54004, "MaxPlayers": 100 }
+        ]
+      }, {
+        "Name": "Cities", "Description": "Free for All ", "IP": "", "Type": 2, "Recommended": 0, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54005, "MaxPlayers": 100 }
+        ]
+      }, {
+        "Name": "Tavern", "Description": "Private Hunt and Bar", "IP": "", "Type": 4, "Recommended": 0, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54006, "MaxPlayers": 100 }
+        ]
+      }, {
+        "Name": "Return", "Description": "Return Player", "IP": "", "Type": 5, "Recommended": 0, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54007, "MaxPlayers": 100 }
+        ]
+      }, {
+        "Name": "MezFes", "Description": "Mezaporta Festival", "IP": "", "Type": 6, "Recommended": 6, "AllowedClientFlags": 0,
+        "Channels": [
+          { "Port": 54008, "MaxPlayers": 100 }
+        ]
+      }
+    ]
+  }
+}
