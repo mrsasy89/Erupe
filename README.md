@@ -81,7 +81,7 @@ Integration and configuration tweaks for the custom launcher (ButterClient → m
 
 Adjustments to make building and running the server on Linux easier (configuration handling, paths, console behaviour).
 
-##Resources
+## Resources
 [Quest and Scenario](https://drive.google.com/file/d/1MBiyEOrNvH2ozUQeg0q1Nq8pmdEA3EtN/view?usp=sharing)
 
 Small changes to default configuration and SQL scripts to simplify private server setup.
