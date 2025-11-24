@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
-  "Host": "127.0.0.1"
-=======
-  "Host": "37.100.251.163",
->>>>>>> 2b1b69f (Linux config fixes and DB setup)
+
+  "Host": "127.0.0.1",
   "BinPath": "bin",
   "Language": "en",
   "DisableSoftCrash": false,
