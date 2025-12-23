@@ -1,6 +1,6 @@
 # Erupe Custom
 This repository is a fork of [Mezeporta/Erupe](https://github.com/Mezeporta/Erupe), a Monster Hunter Frontier server emulator.
-The goal of this fork is to provide a version of Erupe integrated with a custom launcher (originally ButterClient, now mhf-custom-launcher), with a focus on Linux support and easier installation.
+The goal of this fork is to provide a version of Erupe integrated with a custom launcher (originally ButterClient, now MHFZ-Launcher), with a focus on Linux support and easier installation.
 
 ## Credits
 Original server project: Mezeporta/Erupe
