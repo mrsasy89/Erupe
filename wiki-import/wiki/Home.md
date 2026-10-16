@@ -90,4 +90,4 @@ The schema is applied automatically on first start, the same way as a native ins
 
 See [Enumerations — Quest Types](Enumerations#quest-types) and [Quest Type Client Mapping](Quest-Type-Client-Mapping) for the client-verified category names, including **54 → Gear Acquisition Quests** and **9 → Promotional**.
 
-Documentation copied from [Houmgaor/Erupe wiki](https://github.com/mrsasy89/Erupe/wiki), snapshot `69ade90d207aacd7cb674b0feb4ca8b266e22e70`. Original documentation credit remains with its contributors. Local quest-type corrections are documented separately and do not imply all upstream instructions have been revalidated against this fork.
+Documentation copied from [Houmgaor/Erupe wiki](https://github.com/Houmgaor/Erupe/wiki), snapshot `69ade90d207aacd7cb674b0feb4ca8b266e22e70`. Original documentation credit remains with its contributors. Local quest-type corrections are documented separately and do not imply all upstream instructions have been revalidated against this fork.
