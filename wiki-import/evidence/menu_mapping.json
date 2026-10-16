@@ -1,0 +1,3539 @@
+[
+  {
+    "index": 0,
+    "name": "",
+    "ptr": 6596,
+    "descriptor": "0x11939610",
+    "flags": "0x0",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 1,
+    "name": "Limited Quests",
+    "ptr": 2131758,
+    "descriptor": "0x11939620",
+    "flags": "0x101",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939478"
+  },
+  {
+    "index": 2,
+    "name": "Hunter Quests",
+    "ptr": 2131773,
+    "descriptor": "0x11939630",
+    "flags": "0x102",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939480"
+  },
+  {
+    "index": 3,
+    "name": "Special Quests",
+    "ptr": 2131787,
+    "descriptor": "0x11939640",
+    "flags": "0x103",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119394c8"
+  },
+  {
+    "index": 4,
+    "name": "Clan Quests",
+    "ptr": 2131802,
+    "descriptor": "0x11939650",
+    "flags": "0x204",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939490"
+  },
+  {
+    "index": 5,
+    "name": "Caravan Quests",
+    "ptr": 2131814,
+    "descriptor": "0x11939660",
+    "flags": "0x105",
+    "parameter": "0x0",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x1193949c"
+  },
+  {
+    "index": 6,
+    "name": "VS. Quests",
+    "ptr": 2131829,
+    "descriptor": "0x11939670",
+    "flags": "0x820006",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119394c4"
+  },
+  {
+    "index": 7,
+    "name": "Urgent Quest",
+    "ptr": 2131840,
+    "descriptor": "0x11939680",
+    "flags": "0x107",
+    "parameter": "0x1",
+    "filter_ptr": "0x11a963dc",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 3
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 8,
+    "name": "Starter Quests",
+    "ptr": 2131853,
+    "descriptor": "0x11939690",
+    "flags": "0x108",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939494"
+  },
+  {
+    "index": 9,
+    "name": "Frontier Quests",
+    "ptr": 2131868,
+    "descriptor": "0x119396a0",
+    "flags": "0x109",
+    "parameter": "0x5",
+    "filter_ptr": "0x11a969a0",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 5
+      },
+      {
+        "mode": 2,
+        "value": 12
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 10,
+    "name": "Special Quests",
+    "ptr": 2131884,
+    "descriptor": "0x119396b0",
+    "flags": "0x10a",
+    "parameter": "0xb",
+    "filter_ptr": "0x11a969b4",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 11
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 11,
+    "name": "Elder Dragon Quests",
+    "ptr": 2131899,
+    "descriptor": "0x119396c0",
+    "flags": "0x10b",
+    "parameter": "0xa",
+    "filter_ptr": "0x11a969c0",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 10
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 12,
+    "name": "Interception",
+    "ptr": 2131919,
+    "descriptor": "0x119396d0",
+    "flags": "0x10c",
+    "parameter": "0x1",
+    "filter_ptr": "0x11a969cc",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 4
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 13,
+    "name": "Gou Quests",
+    "ptr": 2131932,
+    "descriptor": "0x119396e0",
+    "flags": "0x83010d",
+    "parameter": "0x11",
+    "filter_ptr": "0x11a969d8",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 14
+      },
+      {
+        "mode": 2,
+        "value": 15
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 14,
+    "name": "Hunting Competition",
+    "ptr": 2131943,
+    "descriptor": "0x119396f0",
+    "flags": "0x10e",
+    "parameter": "0x7",
+    "filter_ptr": "0x11a969ec",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 7
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 15,
+    "name": "Winners Quests",
+    "ptr": 2131963,
+    "descriptor": "0x11939700",
+    "flags": "0x30f",
+    "parameter": "0x8",
+    "filter_ptr": "0x11a969f8",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 8
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 16,
+    "name": "HR1-30",
+    "ptr": 2131978,
+    "descriptor": "0x11939710",
+    "flags": "0x110",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a04",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 5
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 17,
+    "name": "HR31-99",
+    "ptr": 2131985,
+    "descriptor": "0x11939720",
+    "flags": "0x111",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a10",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 6
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 18,
+    "name": "HR100+",
+    "ptr": 2131993,
+    "descriptor": "0x11939730",
+    "flags": "0x112",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a1c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 7
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 19,
+    "name": "Event Quests",
+    "ptr": 2132000,
+    "descriptor": "0x11939740",
+    "flags": "0x113",
+    "parameter": "0x9",
+    "filter_ptr": "0x11a96a28",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 9
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 20,
+    "name": "Luxury Quests",
+    "ptr": 2132013,
+    "descriptor": "0x11939750",
+    "flags": "0x114",
+    "parameter": "0xc",
+    "filter_ptr": "0x11a96a34",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 8
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 21,
+    "name": "Premium Quests",
+    "ptr": 2132027,
+    "descriptor": "0x11939760",
+    "flags": "0x115",
+    "parameter": "0x13",
+    "filter_ptr": "0x11a96a40",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 0
+      },
+      {
+        "mode": 1,
+        "value": 1
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 22,
+    "name": "Quest Orders",
+    "ptr": 2132042,
+    "descriptor": "0x11939770",
+    "flags": "0x216",
+    "parameter": "0x18",
+    "filter_ptr": "0x11a95f6c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 2
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 23,
+    "name": "Add Request",
+    "ptr": 2132055,
+    "descriptor": "0x11939780",
+    "flags": "0x217",
+    "parameter": "0x78",
+    "filter_ptr": "0x11a96a54",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 11
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 24,
+    "name": "Jungle",
+    "ptr": 2132067,
+    "descriptor": "0x11939790",
+    "flags": "0x118",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a60",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 12
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 25,
+    "name": "Desert",
+    "ptr": 2132074,
+    "descriptor": "0x119397a0",
+    "flags": "0x119",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a6c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 13
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 26,
+    "name": "Swamp",
+    "ptr": 2132081,
+    "descriptor": "0x119397b0",
+    "flags": "0x11a",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a78",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 14
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 27,
+    "name": "Snowy Mountain",
+    "ptr": 2132087,
+    "descriptor": "0x119397c0",
+    "flags": "0x11b",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a84",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 15
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 28,
+    "name": "Volcano",
+    "ptr": 2132102,
+    "descriptor": "0x119397d0",
+    "flags": "0x11c",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a90",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 16
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 29,
+    "name": "Tower",
+    "ptr": 2132110,
+    "descriptor": "0x119397e0",
+    "flags": "0x11d",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a9c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 17
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 30,
+    "name": "Forest & Hills",
+    "ptr": 2132116,
+    "descriptor": "0x119397f0",
+    "flags": "0x11e",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96aa8",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 18
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 31,
+    "name": "Great Forest",
+    "ptr": 2132131,
+    "descriptor": "0x11939800",
+    "flags": "0x11f",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96ab4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 19
+      },
+      {
+        "mode": 1,
+        "value": 28
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 32,
+    "name": "Arena",
+    "ptr": 2132144,
+    "descriptor": "0x11939810",
+    "flags": "0x120",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96ac8",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 20
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 33,
+    "name": "Gorge",
+    "ptr": 2132150,
+    "descriptor": "0x11939820",
+    "flags": "0x121",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96ad4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 21
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 34,
+    "name": "Highlands",
+    "ptr": 2132156,
+    "descriptor": "0x11939830",
+    "flags": "0x122",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96ae0",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 22
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 35,
+    "name": "Tidal Island",
+    "ptr": 2132166,
+    "descriptor": "0x11939840",
+    "flags": "0x123",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96aec",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 23
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 36,
+    "name": "Polar Sea",
+    "ptr": 2132179,
+    "descriptor": "0x11939850",
+    "flags": "0x124",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96af8",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 24
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 37,
+    "name": "Flower Field",
+    "ptr": 2132189,
+    "descriptor": "0x11939860",
+    "flags": "0x125",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96b10",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 25
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 38,
+    "name": "Bamboo Forest",
+    "ptr": 2132202,
+    "descriptor": "0x11939870",
+    "flags": "0x126",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96b1c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 26
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 39,
+    "name": "White Lake",
+    "ptr": 2132216,
+    "descriptor": "0x11939880",
+    "flags": "0x127",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96b04",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 27
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 40,
+    "name": "Hunter Life Basics",
+    "ptr": 2132227,
+    "descriptor": "0x11939890",
+    "flags": "0x128",
+    "parameter": "0xf",
+    "filter_ptr": "0x11a96b28",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 29
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 41,
+    "name": "Melee Usage",
+    "ptr": 2132246,
+    "descriptor": "0x119398a0",
+    "flags": "0x129",
+    "parameter": "0xf",
+    "filter_ptr": "0x11a96b34",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 30
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 42,
+    "name": "Ranged Usage",
+    "ptr": 2132258,
+    "descriptor": "0x119398b0",
+    "flags": "0x12a",
+    "parameter": "0xf",
+    "filter_ptr": "0x11a96b40",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 31
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 43,
+    "name": "Start with a minion",
+    "ptr": 2132271,
+    "descriptor": "0x119398c0",
+    "flags": "0x12b",
+    "parameter": "0xf",
+    "filter_ptr": "0x11a96b4c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 32
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 44,
+    "name": "Destroy the large monster!",
+    "ptr": 2132291,
+    "descriptor": "0x119398d0",
+    "flags": "0x12c",
+    "parameter": "0xf",
+    "filter_ptr": "0x11a96b58",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 33
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 45,
+    "name": "Delivery is also important!",
+    "ptr": 2132318,
+    "descriptor": "0x119398e0",
+    "flags": "0x12d",
+    "parameter": "0xf",
+    "filter_ptr": "0x11a96b64",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 34
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 46,
+    "name": "★ Rank Quests",
+    "ptr": 2132346,
+    "descriptor": "0x119398f0",
+    "flags": "0x12e",
+    "parameter": "0x14",
+    "filter_ptr": "0x11a962ec",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 9
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 47,
+    "name": "Great Slaying Quests",
+    "ptr": 2132361,
+    "descriptor": "0x11939900",
+    "flags": "0x12f",
+    "parameter": "0x15",
+    "filter_ptr": "0x11a96b70",
+    "filters": [
+      {
+        "mode": 3,
+        "value": 16
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 48,
+    "name": "Pioneer Quests",
+    "ptr": 2132382,
+    "descriptor": "0x11939910",
+    "flags": "0x130",
+    "parameter": "0x40078",
+    "filter_ptr": "0x11a96b7c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 35
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 49,
+    "name": "Pioneers List",
+    "ptr": 2132397,
+    "descriptor": "0x11939920",
+    "flags": "0x131",
+    "parameter": "0x50078",
+    "filter_ptr": "0x11a96b88",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 36
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 50,
+    "name": "Quest Orders",
+    "ptr": 2132411,
+    "descriptor": "0x11939930",
+    "flags": "0x820132",
+    "parameter": "0x10",
+    "filter_ptr": "0x11a9637c",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 13
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 51,
+    "name": "Tournament Board",
+    "ptr": 2132424,
+    "descriptor": "0x11939940",
+    "flags": "0x960033",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 52,
+    "name": "Tournament Quests",
+    "ptr": 2132441,
+    "descriptor": "0x11939950",
+    "flags": "0x134",
+    "parameter": "0x16",
+    "filter_ptr": "0x11a96b94",
+    "filters": [
+      {
+        "mode": 4,
+        "value": 17
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 53,
+    "name": "Quest History",
+    "ptr": 2132459,
+    "descriptor": "0x11939960",
+    "flags": "0x35",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 54,
+    "name": "Quest Search",
+    "ptr": 2132473,
+    "descriptor": "0x11939970",
+    "flags": "0x36",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 55,
+    "name": "SR1-30",
+    "ptr": 2132486,
+    "descriptor": "0x11939980",
+    "flags": "0x110",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a04",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 5
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 56,
+    "name": "SR31-99",
+    "ptr": 2132493,
+    "descriptor": "0x11939990",
+    "flags": "0x111",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a10",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 6
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 57,
+    "name": "SR100+",
+    "ptr": 2132501,
+    "descriptor": "0x119399a0",
+    "flags": "0x112",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96a1c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 7
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 58,
+    "name": "Event Quests",
+    "ptr": 2132508,
+    "descriptor": "0x119399b0",
+    "flags": "0x98013a",
+    "parameter": "0x19",
+    "filter_ptr": "0x11a96bac",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 18
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 59,
+    "name": "Certified NetCafe Benefits",
+    "ptr": 2132521,
+    "descriptor": "0x119399c0",
+    "flags": "0x99013b",
+    "parameter": "0x1a",
+    "filter_ptr": "0x11a96bb8",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 19
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 60,
+    "name": "Promotional",
+    "ptr": 2132548,
+    "descriptor": "0x119399d0",
+    "flags": "0x13c",
+    "parameter": "0x1b",
+    "filter_ptr": "0x11a96a28",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 9
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 61,
+    "name": "Paw Coins/Yearly Benefits",
+    "ptr": 2132560,
+    "descriptor": "0x119399e0",
+    "flags": "0x13d",
+    "parameter": "0x1c",
+    "filter_ptr": "0x11a96bc4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 38
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 62,
+    "name": "HR Ranking Rewards",
+    "ptr": 2132586,
+    "descriptor": "0x119399f0",
+    "flags": "0x13e",
+    "parameter": "0x1d",
+    "filter_ptr": "0x11a96bd0",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 39
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 63,
+    "name": "Hunting Skill Quests",
+    "ptr": 2132605,
+    "descriptor": "0x11939a00",
+    "flags": "0x13f",
+    "parameter": "0x1e",
+    "filter_ptr": "0x11a96bdc",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 21
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 64,
+    "name": "Goocoo Quests",
+    "ptr": 2132626,
+    "descriptor": "0x11939a10",
+    "flags": "0x140",
+    "parameter": "0x20",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939480"
+  },
+  {
+    "index": 65,
+    "name": "Special Series Quests",
+    "ptr": 2132640,
+    "descriptor": "0x11939a20",
+    "flags": "0x141",
+    "parameter": "0x21",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939480"
+  },
+  {
+    "index": 66,
+    "name": "Training Quests",
+    "ptr": 2132662,
+    "descriptor": "0x11939a30",
+    "flags": "0x9f0142",
+    "parameter": "0x22",
+    "filter_ptr": "0x11a96be8",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 25
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 67,
+    "name": "Daily Quests",
+    "ptr": 2132678,
+    "descriptor": "0x11939a40",
+    "flags": "0xa00143",
+    "parameter": "0x23",
+    "filter_ptr": "0x11a96bf4",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 26
+      },
+      {
+        "mode": 1,
+        "value": 116
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 68,
+    "name": "G Quests",
+    "ptr": 2132691,
+    "descriptor": "0x11939a50",
+    "flags": "0x144",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 69,
+    "name": "Limited Quests",
+    "ptr": 2132700,
+    "descriptor": "0x11939a60",
+    "flags": "0x145",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119394fc"
+  },
+  {
+    "index": 70,
+    "name": "G Hunter Quests",
+    "ptr": 2132715,
+    "descriptor": "0x11939a70",
+    "flags": "0x146",
+    "parameter": "0x29",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939504"
+  },
+  {
+    "index": 71,
+    "name": "G Urgent Quests",
+    "ptr": 2132731,
+    "descriptor": "0x11939a80",
+    "flags": "0x147",
+    "parameter": "0x2c",
+    "filter_ptr": "0x11a96c1c",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 31
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 72,
+    "name": "Conquest・Shiten Quests",
+    "ptr": 2132747,
+    "descriptor": "0x11939a90",
+    "flags": "0x148",
+    "parameter": "0x1002f",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939514"
+  },
+  {
+    "index": 73,
+    "name": "Clan Requests",
+    "ptr": 2132771,
+    "descriptor": "0x11939aa0",
+    "flags": "0x149",
+    "parameter": "0x2b",
+    "filter_ptr": "0x11a96c64",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 40
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 74,
+    "name": "Event Quests",
+    "ptr": 2132785,
+    "descriptor": "0x11939ab0",
+    "flags": "0x98014a",
+    "parameter": "0x26",
+    "filter_ptr": "0x11a96c70",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 28
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 75,
+    "name": "Frontier Quests",
+    "ptr": 2132798,
+    "descriptor": "0x11939ac0",
+    "flags": "0x14b",
+    "parameter": "0x25",
+    "filter_ptr": "0x11a96c7c",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 27
+      },
+      {
+        "mode": 2,
+        "value": 32
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 76,
+    "name": "Special Quests",
+    "ptr": 2132814,
+    "descriptor": "0x11939ad0",
+    "flags": "0x14c",
+    "parameter": "0x27",
+    "filter_ptr": "0x11a96c90",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 29
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 77,
+    "name": "Daily Quests",
+    "ptr": 2132829,
+    "descriptor": "0x11939ae0",
+    "flags": "0xa0014d",
+    "parameter": "0x2d",
+    "filter_ptr": "0x11a96c08",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 30
+      },
+      {
+        "mode": 1,
+        "value": 117
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 78,
+    "name": "G★1 Quests",
+    "ptr": 2132842,
+    "descriptor": "0x11939af0",
+    "flags": "0x14e",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96c9c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 41
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 79,
+    "name": "G★2 Quests",
+    "ptr": 2132854,
+    "descriptor": "0x11939b00",
+    "flags": "0x14f",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96ca8",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 42
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 80,
+    "name": "G★3 Quests",
+    "ptr": 2132866,
+    "descriptor": "0x11939b10",
+    "flags": "0x150",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96cb4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 43
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 81,
+    "name": "G★4 Quests",
+    "ptr": 2132878,
+    "descriptor": "0x11939b20",
+    "flags": "0x151",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96cc0",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 44
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 82,
+    "name": "G★5 Quests",
+    "ptr": 2132890,
+    "descriptor": "0x11939b30",
+    "flags": "0x152",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96ccc",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 45
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 83,
+    "name": "G★6 Quests",
+    "ptr": 2132902,
+    "descriptor": "0x11939b40",
+    "flags": "0x153",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96cd8",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 46
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 84,
+    "name": "G★7 Quests",
+    "ptr": 2132914,
+    "descriptor": "0x11939b50",
+    "flags": "0x154",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96ce4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 47
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 85,
+    "name": "※ Legend Quests",
+    "ptr": 2132926,
+    "descriptor": "0x11939b60",
+    "flags": "0x155",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96cf0",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 48
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 86,
+    "name": "※ G Monster Farming",
+    "ptr": 2132943,
+    "descriptor": "0x11939b70",
+    "flags": "0x156",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96cfc",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 49
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 87,
+    "name": "※ Musou Quests",
+    "ptr": 2132964,
+    "descriptor": "0x11939b80",
+    "flags": "0x157",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96d08",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 50
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 88,
+    "name": "Other Quests",
+    "ptr": 2132980,
+    "descriptor": "0x11939b90",
+    "flags": "0x158",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939528"
+  },
+  {
+    "index": 89,
+    "name": "Order Quests",
+    "ptr": 2132993,
+    "descriptor": "0x11939ba0",
+    "flags": "0x159",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939538"
+  },
+  {
+    "index": 90,
+    "name": "Order Quests",
+    "ptr": 2133006,
+    "descriptor": "0x11939bb0",
+    "flags": "0x15a",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939540"
+  },
+  {
+    "index": 91,
+    "name": "Order Quests",
+    "ptr": 2133019,
+    "descriptor": "0x11939bc0",
+    "flags": "0x15b",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939548"
+  },
+  {
+    "index": 92,
+    "name": "Order Quests",
+    "ptr": 2133032,
+    "descriptor": "0x11939bd0",
+    "flags": "0x15c",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939554"
+  },
+  {
+    "index": 93,
+    "name": "Gou Quests",
+    "ptr": 2133045,
+    "descriptor": "0x11939be0",
+    "flags": "0x15d",
+    "parameter": "0x31",
+    "filter_ptr": "0x11a96d34",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 51
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 94,
+    "name": "Gou Qualification",
+    "ptr": 2133056,
+    "descriptor": "0x11939bf0",
+    "flags": "0x15e",
+    "parameter": "0x32",
+    "filter_ptr": "0x11a96d40",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 52
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 95,
+    "name": "Training Quests",
+    "ptr": 2133074,
+    "descriptor": "0x11939c00",
+    "flags": "0x15f",
+    "parameter": "0x33",
+    "filter_ptr": "0x11a96d4c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 53
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 96,
+    "name": "Special Quests",
+    "ptr": 2133090,
+    "descriptor": "0x11939c10",
+    "flags": "0x160",
+    "parameter": "0x34",
+    "filter_ptr": "0x11a96d58",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 54
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 97,
+    "name": "Memo Quests",
+    "ptr": 2133105,
+    "descriptor": "0x11939c20",
+    "flags": "0x161",
+    "parameter": "0x35",
+    "filter_ptr": "0x11a96d64",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 55
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 98,
+    "name": "Gear Acquisition Quests",
+    "ptr": 2133117,
+    "descriptor": "0x11939c30",
+    "flags": "0x162",
+    "parameter": "0x36",
+    "filter_ptr": "0x11a96d70",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 54
+      },
+      {
+        "mode": 1,
+        "value": 56
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 99,
+    "name": "G Deco Quests",
+    "ptr": 2133141,
+    "descriptor": "0x11939c40",
+    "flags": "0x163",
+    "parameter": "0x37",
+    "filter_ptr": "0x11a96d84",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 57
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 100,
+    "name": "Skill Cuff Quests",
+    "ptr": 2133155,
+    "descriptor": "0x11939c50",
+    "flags": "0x164",
+    "parameter": "0x38",
+    "filter_ptr": "0x11a96d90",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 58
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 101,
+    "name": "Long Term Quests",
+    "ptr": 2133173,
+    "descriptor": "0x11939c60",
+    "flags": "0x165",
+    "parameter": "0x39",
+    "filter_ptr": "0x11a96d9c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 59
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 102,
+    "name": "Hunting Skill Quests",
+    "ptr": 2133190,
+    "descriptor": "0x11939c70",
+    "flags": "0x166",
+    "parameter": "0x1e",
+    "filter_ptr": "0x11a96da8",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 60
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 103,
+    "name": "Ultimate Conquests",
+    "ptr": 2133211,
+    "descriptor": "0x11939c80",
+    "flags": "0x167",
+    "parameter": "0x2f",
+    "filter_ptr": "0x11a96c28",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 111
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 104,
+    "name": "Ranking",
+    "ptr": 2133230,
+    "descriptor": "0x11939c90",
+    "flags": "0x168",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 105,
+    "name": "Level Reset",
+    "ptr": 2133238,
+    "descriptor": "0x11939ca0",
+    "flags": "0x169",
+    "parameter": "0x2f",
+    "filter_ptr": "0x11a96c28",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 111
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 106,
+    "name": "Claim Rank Rewards",
+    "ptr": 2133250,
+    "descriptor": "0x11939cb0",
+    "flags": "0x16a",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 107,
+    "name": "Check Rank Rewards",
+    "ptr": 2133269,
+    "descriptor": "0x11939cc0",
+    "flags": "0x16b",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 108,
+    "name": "Check Level Rewards",
+    "ptr": 2133288,
+    "descriptor": "0x11939cd0",
+    "flags": "0x16c",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 109,
+    "name": "Special Quests",
+    "ptr": 2133308,
+    "descriptor": "0x11939ce0",
+    "flags": "0x16d",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119394d0"
+  },
+  {
+    "index": 110,
+    "name": "Training Support Quests",
+    "ptr": 2133323,
+    "descriptor": "0x11939cf0",
+    "flags": "0x26e",
+    "parameter": "0x18",
+    "filter_ptr": "0x11a95f6c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 2
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 111,
+    "name": "Favorites",
+    "ptr": 2133347,
+    "descriptor": "0x11939d00",
+    "flags": "0x6f",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939520"
+  },
+  {
+    "index": 112,
+    "name": "Favorites 1",
+    "ptr": 2133357,
+    "descriptor": "0x11939d10",
+    "flags": "0x70",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 113,
+    "name": "Favorites 2",
+    "ptr": 2133369,
+    "descriptor": "0x11939d20",
+    "flags": "0x71",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 114,
+    "name": "Favorites 3",
+    "ptr": 2133381,
+    "descriptor": "0x11939d30",
+    "flags": "0x72",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 115,
+    "name": "Favorites 4",
+    "ptr": 2133393,
+    "descriptor": "0x11939d40",
+    "flags": "0x73",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 116,
+    "name": "Favorites 5",
+    "ptr": 2133405,
+    "descriptor": "0x11939d50",
+    "flags": "0x74",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 117,
+    "name": "Order Quests",
+    "ptr": 2133417,
+    "descriptor": "0x11939d60",
+    "flags": "0x175",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939530"
+  },
+  {
+    "index": 118,
+    "name": "Diva Story",
+    "ptr": 2133430,
+    "descriptor": "0x11939d70",
+    "flags": "0x176",
+    "parameter": "0x41",
+    "filter_ptr": "0x11a96db4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 61
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 119,
+    "name": "Diva Story",
+    "ptr": 2133441,
+    "descriptor": "0x11939d80",
+    "flags": "0x177",
+    "parameter": "0x42",
+    "filter_ptr": "0x11a96dc0",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 61
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 120,
+    "name": "Supremacy Quests",
+    "ptr": 2133452,
+    "descriptor": "0x11939d90",
+    "flags": "0x178",
+    "parameter": "0x78",
+    "filter_ptr": "0x11a96dcc",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 34
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 121,
+    "name": "※ Burst & Origin Quests",
+    "ptr": 2133469,
+    "descriptor": "0x11939da0",
+    "flags": "0x179",
+    "parameter": "0x78",
+    "filter_ptr": "0x11a96dd8",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 35
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 122,
+    "name": "※ Gathering Quests",
+    "ptr": 2133494,
+    "descriptor": "0x11939db0",
+    "flags": "0x17a",
+    "parameter": "0x29",
+    "filter_ptr": "0x11a96de4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 62
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 123,
+    "name": "Hunter Quests",
+    "ptr": 2133514,
+    "descriptor": "0x11939dc0",
+    "flags": "0x17b",
+    "parameter": "0xe",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939560"
+  },
+  {
+    "index": 124,
+    "name": "※ Gathering Quests",
+    "ptr": 2133528,
+    "descriptor": "0x11939dd0",
+    "flags": "0x17c",
+    "parameter": "0xe",
+    "filter_ptr": "0x11a96df0",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 63
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 125,
+    "name": "Small Monsters",
+    "ptr": 2133548,
+    "descriptor": "0x11939de0",
+    "flags": "0x17d",
+    "parameter": "0xe",
+    "filter_ptr": "0x11a96dfc",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 64
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 126,
+    "name": "Large Monsters",
+    "ptr": 2133563,
+    "descriptor": "0x11939df0",
+    "flags": "0x17e",
+    "parameter": "0xe",
+    "filter_ptr": "0x11a96e08",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 65
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 127,
+    "name": "Pallone Quests",
+    "ptr": 2133578,
+    "descriptor": "0x11939e00",
+    "flags": "0x17f",
+    "parameter": "0x0",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119394a4"
+  },
+  {
+    "index": 128,
+    "name": "Pallone Festival",
+    "ptr": 2133593,
+    "descriptor": "0x11939e10",
+    "flags": "0x180",
+    "parameter": "0x14",
+    "filter_ptr": "0x11a962ec",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 9
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 129,
+    "name": "Final Ranking List",
+    "ptr": 2133610,
+    "descriptor": "0x11939e20",
+    "flags": "0x181",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119394b0"
+  },
+  {
+    "index": 130,
+    "name": "Personal Ranking",
+    "ptr": 2133629,
+    "descriptor": "0x11939e30",
+    "flags": "0x182",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119394b8"
+  },
+  {
+    "index": 131,
+    "name": "Clan ranking",
+    "ptr": 2133646,
+    "descriptor": "0x11939e40",
+    "flags": "0x183",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119394bc"
+  },
+  {
+    "index": 132,
+    "name": "Check Rank Rewards",
+    "ptr": 2133659,
+    "descriptor": "0x11939e50",
+    "flags": "0x184",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119394c0"
+  },
+  {
+    "index": 133,
+    "name": "Receive Rank Rewards",
+    "ptr": 2133678,
+    "descriptor": "0x11939e60",
+    "flags": "0x185",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 134,
+    "name": "Confirm Challenges",
+    "ptr": 2133699,
+    "descriptor": "0x11939e70",
+    "flags": "0x186",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939564"
+  },
+  {
+    "index": 135,
+    "name": "About Pallone Festival",
+    "ptr": 2133718,
+    "descriptor": "0x11939e80",
+    "flags": "0x187",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 136,
+    "name": "Check Challenge Rewards",
+    "ptr": 2133741,
+    "descriptor": "0x11939e90",
+    "flags": "0x188",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 137,
+    "name": "Claim Challenge Rewards",
+    "ptr": 2133765,
+    "descriptor": "0x11939ea0",
+    "flags": "0x189",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 138,
+    "name": "個人総合",
+    "ptr": 1148292,
+    "descriptor": "0x11939eb0",
+    "flags": "0x18a",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 139,
+    "name": "Personal Route",
+    "ptr": 2133789,
+    "descriptor": "0x11939ec0",
+    "flags": "0x18b",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 140,
+    "name": "猟団総合",
+    "ptr": 1148490,
+    "descriptor": "0x11939ed0",
+    "flags": "0x18c",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 141,
+    "name": "Clan Route",
+    "ptr": 2133804,
+    "descriptor": "0x11939ee0",
+    "flags": "0x18d",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 142,
+    "name": "General",
+    "ptr": 2133815,
+    "descriptor": "0x11939ef0",
+    "flags": "0x18e",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 143,
+    "name": "Route",
+    "ptr": 2133823,
+    "descriptor": "0x11939f00",
+    "flags": "0x18f",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 144,
+    "name": "General",
+    "ptr": 2133829,
+    "descriptor": "0x11939f10",
+    "flags": "0x190",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 145,
+    "name": "Route",
+    "ptr": 2133837,
+    "descriptor": "0x11939f20",
+    "flags": "0x191",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 146,
+    "name": "Personal",
+    "ptr": 2133843,
+    "descriptor": "0x11939f30",
+    "flags": "0x192",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 147,
+    "name": "猟団",
+    "ptr": 774180,
+    "descriptor": "0x11939f40",
+    "flags": "0x193",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 148,
+    "name": "Shiten Quests",
+    "ptr": 2133852,
+    "descriptor": "0x11939f50",
+    "flags": "0x194",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x1193951c"
+  },
+  {
+    "index": 149,
+    "name": "Shiten Quests",
+    "ptr": 2133866,
+    "descriptor": "0x11939f60",
+    "flags": "0x195",
+    "parameter": "0x3d",
+    "filter_ptr": "0x11a96e14",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 109
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 150,
+    "name": "Adv Shiten Quests",
+    "ptr": 2133880,
+    "descriptor": "0x11939f70",
+    "flags": "0x196",
+    "parameter": "0x3d",
+    "filter_ptr": "0x11a96e20",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 110
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 151,
+    "name": "Weapon Souls & Hiden",
+    "ptr": 2133898,
+    "descriptor": "0x11939f80",
+    "flags": "0x197",
+    "parameter": "0x3e",
+    "filter_ptr": "0x11a96e2c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 66
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 152,
+    "name": "Tower Quests",
+    "ptr": 2133919,
+    "descriptor": "0x11939f90",
+    "flags": "0x198",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939568"
+  },
+  {
+    "index": 153,
+    "name": "Tower Departure",
+    "ptr": 2133932,
+    "descriptor": "0x11939fa0",
+    "flags": "0x199",
+    "parameter": "0x8003f",
+    "filter_ptr": "0x11a96e44",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 67
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 154,
+    "name": "Tower Info",
+    "ptr": 2133948,
+    "descriptor": "0x11939fb0",
+    "flags": "0x19a",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 155,
+    "name": "Contribution Rewards",
+    "ptr": 2133959,
+    "descriptor": "0x11939fc0",
+    "flags": "0x19b",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939570"
+  },
+  {
+    "index": 156,
+    "name": "Check Contribution Rewards",
+    "ptr": 2133980,
+    "descriptor": "0x11939fd0",
+    "flags": "0x19c",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 157,
+    "name": "Claim Contribution Rewards",
+    "ptr": 2134007,
+    "descriptor": "0x11939fe0",
+    "flags": "0x19d",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 158,
+    "name": "天廊遠征録について",
+    "ptr": 1123602,
+    "descriptor": "0x11939ff0",
+    "flags": "0x19e",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 159,
+    "name": "Guild Medal Exchange",
+    "ptr": 2134034,
+    "descriptor": "0x1193a000",
+    "flags": "0x19f",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 160,
+    "name": "Low Rank Quests",
+    "ptr": 2134055,
+    "descriptor": "0x1193a010",
+    "flags": "0x1a0",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939590"
+  },
+  {
+    "index": 161,
+    "name": "High Rank Quests",
+    "ptr": 2134071,
+    "descriptor": "0x1193a020",
+    "flags": "0x1a1",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939590"
+  },
+  {
+    "index": 162,
+    "name": "High Skill Quests",
+    "ptr": 2134088,
+    "descriptor": "0x1193a030",
+    "flags": "0x1a2",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939590"
+  },
+  {
+    "index": 163,
+    "name": "Other Fields",
+    "ptr": 2134106,
+    "descriptor": "0x1193a040",
+    "flags": "0x1a3",
+    "parameter": "0x2000e",
+    "filter_ptr": "0x11a96e50",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 68
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 164,
+    "name": "Superior Quests",
+    "ptr": 2134119,
+    "descriptor": "0x1193a050",
+    "flags": "0x1a4",
+    "parameter": "0x40",
+    "filter_ptr": "0x11a96e5c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 69
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 165,
+    "name": "Low Rank Quests",
+    "ptr": 2134135,
+    "descriptor": "0x1193a060",
+    "flags": "0x1a5",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119395a8"
+  },
+  {
+    "index": 166,
+    "name": "High Rank Quests",
+    "ptr": 2134151,
+    "descriptor": "0x1193a070",
+    "flags": "0x1a6",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119395a8"
+  },
+  {
+    "index": 167,
+    "name": "High Skill Quests",
+    "ptr": 2134168,
+    "descriptor": "0x1193a080",
+    "flags": "0x1a7",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119395a8"
+  },
+  {
+    "index": 168,
+    "name": "Superior Quests",
+    "ptr": 2134186,
+    "descriptor": "0x1193a090",
+    "flags": "0x1a8",
+    "parameter": "0x43",
+    "filter_ptr": "0x11a96e68",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 53
+      },
+      {
+        "mode": 2,
+        "value": 52
+      },
+      {
+        "mode": 1,
+        "value": 70
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 169,
+    "name": "≪ＨＲＰ／ＳＲＰ≫",
+    "ptr": 1151454,
+    "descriptor": "0x1193a0a0",
+    "flags": "0x1a9",
+    "parameter": "0x44",
+    "filter_ptr": "0x11a96e84",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 71
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 170,
+    "name": "≪Zenny/Materials≫",
+    "ptr": 2134202,
+    "descriptor": "0x1193a0b0",
+    "flags": "0x1aa",
+    "parameter": "0x45",
+    "filter_ptr": "0x11a96e90",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 72
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 171,
+    "name": "≪Weapons≫",
+    "ptr": 2134222,
+    "descriptor": "0x1193a0c0",
+    "flags": "0x1ab",
+    "parameter": "0x46",
+    "filter_ptr": "0x11a96e9c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 73
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 172,
+    "name": "≪Armor≫",
+    "ptr": 2134234,
+    "descriptor": "0x1193a0d0",
+    "flags": "0x1ac",
+    "parameter": "0x47",
+    "filter_ptr": "0x11a96ea8",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 74
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 173,
+    "name": "≪Decorations≫",
+    "ptr": 2134244,
+    "descriptor": "0x1193a0e0",
+    "flags": "0x1ad",
+    "parameter": "0x48",
+    "filter_ptr": "0x11a96eb4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 75
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 174,
+    "name": "≪HR Tests≫",
+    "ptr": 2134260,
+    "descriptor": "0x1193a0f0",
+    "flags": "0x1ae",
+    "parameter": "0x49",
+    "filter_ptr": "0x11a96ec0",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 76
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 175,
+    "name": "≪My Missions≫",
+    "ptr": 2134273,
+    "descriptor": "0x1193a100",
+    "flags": "0x1af",
+    "parameter": "0x4a",
+    "filter_ptr": "0x11a96ecc",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 77
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 176,
+    "name": "≪Diva≫",
+    "ptr": 2134289,
+    "descriptor": "0x1193a110",
+    "flags": "0x1b0",
+    "parameter": "0x4b",
+    "filter_ptr": "0x11a96ed8",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 78
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 177,
+    "name": "≪ＧＲＰ／ＧＳＲＰ≫",
+    "ptr": 1151568,
+    "descriptor": "0x1193a120",
+    "flags": "0x1b1",
+    "parameter": "0x4c",
+    "filter_ptr": "0x11a96ee4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 79
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 178,
+    "name": "≪G Zenny≫",
+    "ptr": 2134298,
+    "descriptor": "0x1193a130",
+    "flags": "0x1b2",
+    "parameter": "0x4d",
+    "filter_ptr": "0x11a96ef0",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 80
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 179,
+    "name": "≪Weapons≫",
+    "ptr": 2134310,
+    "descriptor": "0x1193a140",
+    "flags": "0x1b3",
+    "parameter": "0x4e",
+    "filter_ptr": "0x11a96efc",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 81
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 180,
+    "name": "≪Armor≫",
+    "ptr": 2134322,
+    "descriptor": "0x1193a150",
+    "flags": "0x1b4",
+    "parameter": "0x4f",
+    "filter_ptr": "0x11a96f08",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 82
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 181,
+    "name": "≪Decorations≫",
+    "ptr": 2134332,
+    "descriptor": "0x1193a160",
+    "flags": "0x1b5",
+    "parameter": "0x50",
+    "filter_ptr": "0x11a96f14",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 83
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 182,
+    "name": "≪Hunter Navi≫",
+    "ptr": 2134348,
+    "descriptor": "0x1193a170",
+    "flags": "0x1b6",
+    "parameter": "0x51",
+    "filter_ptr": "0x11a96f20",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 84
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 183,
+    "name": "≪Diva≫",
+    "ptr": 2134364,
+    "descriptor": "0x1193a180",
+    "flags": "0x1b7",
+    "parameter": "0x52",
+    "filter_ptr": "0x11a96f2c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 85
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 184,
+    "name": "My Missions Quests",
+    "ptr": 2134373,
+    "descriptor": "0x1193a190",
+    "flags": "0x1b8",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 185,
+    "name": "Daily Rewards",
+    "ptr": 2134392,
+    "descriptor": "0x1193a1a0",
+    "flags": "0x1b9",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939578"
+  },
+  {
+    "index": 186,
+    "name": "Check Daily Rewards",
+    "ptr": 2134406,
+    "descriptor": "0x1193a1b0",
+    "flags": "0x1ba",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 187,
+    "name": "Claim Daily Rewards",
+    "ptr": 2134426,
+    "descriptor": "0x1193a1c0",
+    "flags": "0x1bb",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 188,
+    "name": "※ Exotic Quests",
+    "ptr": 2134446,
+    "descriptor": "0x1193a1d0",
+    "flags": "0x1bc",
+    "parameter": "0x78",
+    "filter_ptr": "0x11a96f38",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 38
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 189,
+    "name": "※ G Exotic Quests",
+    "ptr": 2134463,
+    "descriptor": "0x1193a1e0",
+    "flags": "0x1bd",
+    "parameter": "0x78",
+    "filter_ptr": "0x11a96f44",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 39
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 190,
+    "name": "Winners' Quests",
+    "ptr": 2134482,
+    "descriptor": "0x1193a1f0",
+    "flags": "0x3be",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x1193957c"
+  },
+  {
+    "index": 191,
+    "name": "Use Bond Points",
+    "ptr": 2134498,
+    "descriptor": "0x1193a200",
+    "flags": "0x3bf",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x11939580"
+  },
+  {
+    "index": 192,
+    "name": "Extreme Conquests",
+    "ptr": 2134514,
+    "descriptor": "0x1193a210",
+    "flags": "0x3c0",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 193,
+    "name": "Great Slaying",
+    "ptr": 2134532,
+    "descriptor": "0x1193a220",
+    "flags": "0x3c1",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 194,
+    "name": "Claim Breakthrough Reward",
+    "ptr": 2134546,
+    "descriptor": "0x1193a230",
+    "flags": "0x1c2",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 195,
+    "name": "≪ＨＲＰ≫",
+    "ptr": 1151783,
+    "descriptor": "0x1193a240",
+    "flags": "0x1c3",
+    "parameter": "0x57",
+    "filter_ptr": "0x11a96f50",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 86
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 196,
+    "name": "≪Zenny/Materials≫",
+    "ptr": 2134572,
+    "descriptor": "0x1193a250",
+    "flags": "0x1c4",
+    "parameter": "0x58",
+    "filter_ptr": "0x11a96f5c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 87
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 197,
+    "name": "≪Weapons≫",
+    "ptr": 2134592,
+    "descriptor": "0x1193a260",
+    "flags": "0x1c5",
+    "parameter": "0x59",
+    "filter_ptr": "0x11a96f68",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 88
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 198,
+    "name": "≪Armor≫",
+    "ptr": 2134604,
+    "descriptor": "0x1193a270",
+    "flags": "0x1c6",
+    "parameter": "0x5a",
+    "filter_ptr": "0x11a96f74",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 89
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 199,
+    "name": "≪Decorations≫",
+    "ptr": 2134614,
+    "descriptor": "0x1193a280",
+    "flags": "0x1c7",
+    "parameter": "0x5b",
+    "filter_ptr": "0x11a96f80",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 90
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 200,
+    "name": "≪Hunter Training Quest≫",
+    "ptr": 2134630,
+    "descriptor": "0x1193a290",
+    "flags": "0x1c8",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119395c8"
+  },
+  {
+    "index": 201,
+    "name": "≪HR1-30≫",
+    "ptr": 2134656,
+    "descriptor": "0x1193a2a0",
+    "flags": "0x1c9",
+    "parameter": "0x5c",
+    "filter_ptr": "0x11a96f8c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 91
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 202,
+    "name": "≪HR31-99≫",
+    "ptr": 2134667,
+    "descriptor": "0x1193a2b0",
+    "flags": "0x1ca",
+    "parameter": "0x5c",
+    "filter_ptr": "0x11a96f98",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 92
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 203,
+    "name": "≪HR100+≫",
+    "ptr": 2134679,
+    "descriptor": "0x1193a2c0",
+    "flags": "0x1cb",
+    "parameter": "0x5c",
+    "filter_ptr": "0x11a96fa4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 93
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 204,
+    "name": "ようこそ！ＭＨＦ－Ｚ！",
+    "ptr": 1151852,
+    "descriptor": "0x1193a2d0",
+    "flags": "0x1cc",
+    "parameter": "0x5d",
+    "filter_ptr": "0x11a96fb0",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 94
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 205,
+    "name": "Hunter Quests",
+    "ptr": 2134690,
+    "descriptor": "0x1193a2e0",
+    "flags": "0x1cd",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119395cc"
+  },
+  {
+    "index": 206,
+    "name": "★１",
+    "ptr": 977972,
+    "descriptor": "0x1193a2f0",
+    "flags": "0x1ce",
+    "parameter": "0x5e",
+    "filter_ptr": "0x11a96fbc",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 95
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 207,
+    "name": "★２",
+    "ptr": 977977,
+    "descriptor": "0x1193a300",
+    "flags": "0x1cf",
+    "parameter": "0x5f",
+    "filter_ptr": "0x11a96fc8",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 96
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 208,
+    "name": "★３",
+    "ptr": 977982,
+    "descriptor": "0x1193a310",
+    "flags": "0x1d0",
+    "parameter": "0x60",
+    "filter_ptr": "0x11a96fd4",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 97
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 209,
+    "name": "★４",
+    "ptr": 977987,
+    "descriptor": "0x1193a320",
+    "flags": "0x1d1",
+    "parameter": "0x61",
+    "filter_ptr": "0x11a96fe0",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 98
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 210,
+    "name": "★５",
+    "ptr": 977992,
+    "descriptor": "0x1193a330",
+    "flags": "0x1d2",
+    "parameter": "0x62",
+    "filter_ptr": "0x11a96fec",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 99
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 211,
+    "name": "★６",
+    "ptr": 977997,
+    "descriptor": "0x1193a340",
+    "flags": "0x1d3",
+    "parameter": "0x63",
+    "filter_ptr": "0x11a96ff8",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 100
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 212,
+    "name": "Urgent Quests",
+    "ptr": 2134704,
+    "descriptor": "0x1193a350",
+    "flags": "0x1d4",
+    "parameter": "0x64",
+    "filter_ptr": "0x11a97004",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 101
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 213,
+    "name": "Returning Clan Quests",
+    "ptr": 2134718,
+    "descriptor": "0x1193a360",
+    "flags": "0x1d5",
+    "parameter": "0x78",
+    "filter_ptr": "0x11a97074",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 41
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 214,
+    "name": "G Returning Clan Quests",
+    "ptr": 2134740,
+    "descriptor": "0x1193a370",
+    "flags": "0x1d6",
+    "parameter": "0x78",
+    "filter_ptr": "0x11a97080",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 42
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 215,
+    "name": "G Experience Quests",
+    "ptr": 2134764,
+    "descriptor": "0x1193a380",
+    "flags": "0x1d7",
+    "parameter": "0x67",
+    "filter_ptr": "0x11a97010",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 102
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 216,
+    "name": "Zenith Quests",
+    "ptr": 2134784,
+    "descriptor": "0x1193a390",
+    "flags": "0x1d8",
+    "parameter": "0x68",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119395bc"
+  },
+  {
+    "index": 217,
+    "name": "Zenith Monster Quests",
+    "ptr": 2134798,
+    "descriptor": "0x1193a3a0",
+    "flags": "0x1d9",
+    "parameter": "0x68",
+    "filter_ptr": "0x11a9708c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 103
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 218,
+    "name": "迎撃戦クエスト",
+    "ptr": 31996,
+    "descriptor": "0x1193a3b0",
+    "flags": "0x1da",
+    "parameter": "0x69",
+    "filter_ptr": "0x119395d8",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 46
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 219,
+    "name": "Ribbon, Merit & Armor",
+    "ptr": 2134820,
+    "descriptor": "0x1193a3c0",
+    "flags": "0x1db",
+    "parameter": "0x6a",
+    "filter_ptr": "0x11a97050",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 104
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 220,
+    "name": "Special Clan Quests",
+    "ptr": 2134842,
+    "descriptor": "0x1193a3d0",
+    "flags": "0x1dc",
+    "parameter": "0x6b",
+    "filter_ptr": "0x11a9705c",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 44
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 221,
+    "name": "G Special Clan Quests",
+    "ptr": 2134862,
+    "descriptor": "0x1193a3e0",
+    "flags": "0x1dd",
+    "parameter": "0x6c",
+    "filter_ptr": "0x11a97068",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 45
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 222,
+    "name": "Quick Party",
+    "ptr": 2134884,
+    "descriptor": "0x1193a3f0",
+    "flags": "0xde",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x119395c0"
+  },
+  {
+    "index": 223,
+    "name": "Quick PT Recommended",
+    "ptr": 2134896,
+    "descriptor": "0x1193a400",
+    "flags": "0xdf",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 224,
+    "name": "条件で指定",
+    "ptr": 811139,
+    "descriptor": "0x1193a410",
+    "flags": "0xe0",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 225,
+    "name": "クエストで指定",
+    "ptr": 811150,
+    "descriptor": "0x1193a420",
+    "flags": "0xe1",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 226,
+    "name": "おてがるサーチ",
+    "ptr": 811165,
+    "descriptor": "0x1193a430",
+    "flags": "0xe2",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 227,
+    "name": "クイックＰＴとは？",
+    "ptr": 811180,
+    "descriptor": "0x1193a440",
+    "flags": "0xe3",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 228,
+    "name": "※ Exotic Quests",
+    "ptr": 2134917,
+    "descriptor": "0x1193a450",
+    "flags": "0x1e4",
+    "parameter": "0x6d",
+    "filter_ptr": "0x11a9701c",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 38
+      },
+      {
+        "mode": 1,
+        "value": 105
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 229,
+    "name": "※ G Exotic Quests",
+    "ptr": 2134934,
+    "descriptor": "0x1193a460",
+    "flags": "0x1e5",
+    "parameter": "0x6e",
+    "filter_ptr": "0x11a96d14",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 39
+      },
+      {
+        "mode": 1,
+        "value": 106
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 230,
+    "name": "※ Burst & Origin Quests",
+    "ptr": 2134953,
+    "descriptor": "0x1193a470",
+    "flags": "0x1e6",
+    "parameter": "0x6f",
+    "filter_ptr": "0x11a96d28",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 107
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 231,
+    "name": "クイックＰＴおすすめ",
+    "ptr": 1152047,
+    "descriptor": "0x1193a480",
+    "flags": "0xe7",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 232,
+    "name": "Navi Recommended Quests",
+    "ptr": 2134978,
+    "descriptor": "0x1193a490",
+    "flags": "0x1e8",
+    "parameter": "0x78",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 233,
+    "name": "Hunting Road Quests",
+    "ptr": 2135002,
+    "descriptor": "0x1193a4a0",
+    "flags": "0x1e9",
+    "parameter": "0x80070",
+    "filter_ptr": "0x11a96e38",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 108
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 234,
+    "name": "分岐ルート用クエスト",
+    "ptr": 260160,
+    "descriptor": "0x1193a4b0",
+    "flags": "0x1ea",
+    "parameter": "0x69",
+    "filter_ptr": "0x119395f8",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 47
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 235,
+    "name": "SR Guide Quests",
+    "ptr": 2135022,
+    "descriptor": "0x1193a4c0",
+    "flags": "0x1eb",
+    "parameter": "0x71",
+    "filter_ptr": "0x11a97098",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 115
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 236,
+    "name": "About Shiten Quests",
+    "ptr": 2135038,
+    "descriptor": "0x1193a4d0",
+    "flags": "0x1ec",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 237,
+    "name": "Lv1",
+    "ptr": 1144006,
+    "descriptor": "0x1193a4e0",
+    "flags": "0x1ed",
+    "parameter": "0x2f",
+    "filter_ptr": "0x11a96c34",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 111
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 238,
+    "name": "Lv200",
+    "ptr": 1144010,
+    "descriptor": "0x1193a4f0",
+    "flags": "0x1ee",
+    "parameter": "0x2f",
+    "filter_ptr": "0x11a96c40",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 112
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 239,
+    "name": "Lv1000",
+    "ptr": 1144016,
+    "descriptor": "0x1193a500",
+    "flags": "0x1ef",
+    "parameter": "0x2f",
+    "filter_ptr": "0x11a96c4c",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 113
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 240,
+    "name": "Lv9999",
+    "ptr": 1144023,
+    "descriptor": "0x1193a510",
+    "flags": "0x1f0",
+    "parameter": "0x2f",
+    "filter_ptr": "0x11a96c58",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 114
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 241,
+    "name": "G Rank Quests",
+    "ptr": 2135058,
+    "descriptor": "0x1193a520",
+    "flags": "0x1f1",
+    "parameter": "0x14",
+    "filter_ptr": "0x11a962ec",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 9
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 242,
+    "name": "Hunting Road Quests",
+    "ptr": 2135072,
+    "descriptor": "0x1193a530",
+    "flags": "0xf2",
+    "parameter": "0x10078",
+    "filter_ptr": "0x0",
+    "filters": [],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 243,
+    "name": "Ｇ級迎撃戦クエスト",
+    "ptr": 260181,
+    "descriptor": "0x1193a540",
+    "flags": "0x1f3",
+    "parameter": "0x69",
+    "filter_ptr": "0x119395e4",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 48
+      },
+      {
+        "mode": 2,
+        "value": 46
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 244,
+    "name": "New Weapon Type Quests",
+    "ptr": 2135092,
+    "descriptor": "0x1193a550",
+    "flags": "0x1f4",
+    "parameter": "0x76",
+    "filter_ptr": "0x11a97030",
+    "filters": [
+      {
+        "mode": 1,
+        "value": 118
+      }
+    ],
+    "children_ptr": "0x0"
+  },
+  {
+    "index": 245,
+    "name": "Gear Acquisition Quests",
+    "ptr": 2135115,
+    "descriptor": "0x1193a560",
+    "flags": "0x1f5",
+    "parameter": "0x77",
+    "filter_ptr": "0x11a9703c",
+    "filters": [
+      {
+        "mode": 2,
+        "value": 54
+      },
+      {
+        "mode": 1,
+        "value": 119
+      }
+    ],
+    "children_ptr": "0x0"
+  }
+]

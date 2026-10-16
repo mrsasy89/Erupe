@@ -1,0 +1,15 @@
+{
+  "dll_sha256": "5596017aa16f01c06b92b64cd42d2af9a0858e9f5fedce2772bdb35eb985214f",
+  "mhfpac_sha256": "2d52f80584ec7d641914af46d62492abdf6b59cb3149d4f0f86dce0c13c0e07c",
+  "mhfpac_crc_valid": true,
+  "evidence": {
+    "menu_label_table": "mhfpac: *(*0x108c), index 98",
+    "descriptor": "mhfo VA 0x11939c30",
+    "filter": "mhfo VA 0x11a96d70: uint32 [2,54,1,56,0]",
+    "dispatch": "0x1035b5d0 mode2 calls 0x10362110; mode1 calls 0x10362570",
+    "comparison": "0x103621ba-0x103621c5 compares incoming quest_type with requested value",
+    "hr_gr_filter": "0x103622b1-0x103622ce tests body +0x97 bit8 and counter mode"
+  },
+  "conclusion": "Type54 adds server quests to Gear Acquisition, with normal HR/GR filtering. G Deco submenu99 is a static selector57, not quest_type57.",
+  "runtime_test": "Pending for Type54; user confirmed Type9 Promotional works."
+}
