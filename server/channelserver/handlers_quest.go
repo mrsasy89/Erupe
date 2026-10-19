@@ -741,7 +741,9 @@ func handleMsgMhfEnumerateQuest(s *Session, p mhfpacket.MHFPacket) {
 	}
 
 	bf.WriteUint16(totalCount)
-	bf.WriteUint16(pkt.Offset + returnedCount)
+	// The client adds returnedCount to this page's offset when checking
+	// whether more quests remain. Advancing it here makes it stop early.
+	bf.WriteUint16(pkt.Offset)
 	_, _ = bf.Seek(0, io.SeekStart)
 	bf.WriteUint16(returnedCount)
 

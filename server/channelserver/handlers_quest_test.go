@@ -234,34 +234,61 @@ func TestEnumerateQuestBasicStructure(t *testing.T) {
 	}
 }
 
-// TestEnumerateQuestNextOffsetAdvances is a regression test for issue #194:
-// the response's offset field must be pkt.Offset+returnedCount (the offset
-// the client should request next), not pkt.Offset unchanged. Returning the
-// unchanged offset causes the ZZ client to loop forever requesting the same
-// page once event_quests spans more than one page (e.g. 574 rows, page
-// boundary at offset=512).
-func TestEnumerateQuestNextOffsetAdvances(t *testing.T) {
-	tests := []struct {
-		name          string
-		requestOffset uint16
-		returnedCount uint16
-		wantNext      uint16
-	}{
-		{name: "first_page_full", requestOffset: 0, returnedCount: 512, wantNext: 512},
-		{name: "second_page_remainder", requestOffset: 512, returnedCount: 62, wantNext: 574},
-		{name: "no_results_offset_unchanged", requestOffset: 512, returnedCount: 0, wantNext: 512},
+// The ZZ client adds the returned count to the trailing page offset before
+// deciding whether to request another page (mhfo-hd.dll 0x1151c6bf).
+// Exercise the actual handler with a multi-page list and Raviente at its tail.
+func TestEnumerateQuestClientPaginationIncludesRaviente(t *testing.T) {
+	srv := createMockServerWithRaviente()
+	srv.erupeConfig.RealClientMode = cfg.ZZ
+	srv.questCache = NewQuestCache(3600)
+	s := createMockSession(1, srv)
+	quests := make([]EventQuest, 476)
+	for i := range quests {
+		quests[i] = EventQuest{ID: uint32(i + 1), QuestID: i + 1, QuestType: 1, MaxPlayers: 4, Flags: -1}
+		if i >= 468 && i <= 470 {
+			quests[i].QuestType = QuestTypeRegularRaviente
+		}
+		srv.questCache.Put(i+1, s.Lang(), make([]byte, 700))
 	}
-
-	for _, tc := range tests {
-		t.Run(tc.name, func(t *testing.T) {
-			nextOffset := tc.requestOffset + tc.returnedCount
-			if nextOffset != tc.wantNext {
-				t.Errorf("next offset = %d, want %d", nextOffset, tc.wantNext)
+	srv.eventRepo = &mockEventRepo{eventQuests: quests}
+	var offset uint16
+	var ids []uint32
+	var normalCount int
+	for page := 0; page < 10; page++ {
+		handleMsgMhfEnumerateQuest(s, &mhfpacket.MsgMhfEnumerateQuest{AckHandle: uint32(page + 1), Offset: offset})
+		data := readRavienteCaptureAck(t, s).AckData
+		count := binary.BigEndian.Uint16(data[:2])
+		total := binary.BigEndian.Uint16(data[len(data)-4:])
+		pageOffset := binary.BigEndian.Uint16(data[len(data)-2:])
+		pos := 2
+		for i := uint16(0); i < count; i++ {
+			ids = append(ids, binary.BigEndian.Uint32(data[pos:]))
+			if data[pos+10] == QuestTypeRegularRaviente {
+				normalCount++
 			}
-			if tc.returnedCount > 0 && nextOffset == tc.requestOffset {
-				t.Errorf("next offset must not equal request offset when results were returned (would cause an infinite client request loop)")
-			}
-		})
+			// ZZ header, variable quest body, then the empty debug string.
+			bodyLen := int(binary.BigEndian.Uint16(data[pos+20:]))
+			pos += 22 + bodyLen + 2
+		}
+		if total != uint16(len(quests)) {
+			t.Fatalf("total = %d", total)
+		}
+		// Reproduce the client's termination condition, not a server-side guess.
+		if pageOffset+count >= total {
+			break
+		}
+		if count == 0 {
+			t.Fatal("pagination made no progress")
+		}
+		offset += count
+	}
+	if len(ids) != len(quests) || normalCount != 3 {
+		t.Fatalf("client received %d/%d quests, normal Raviente %d/3", len(ids), len(quests), normalCount)
+	}
+	for i, id := range ids {
+		if id != uint32(i+1) {
+			t.Fatalf("quest %d: ID %d", i, id)
+		}
 	}
 }
 
